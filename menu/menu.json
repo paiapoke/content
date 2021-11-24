@@ -1,0 +1,370 @@
+{
+  "version": 1,
+  "settings": {
+    "additionalToppingOnNoProtein": 1,
+    "moreSaucePrice": 1
+  },
+  "bases": [
+    {
+      "id": "jasmin",
+      "name": "Jasmine rice",
+      "name_de": "Jasminreis",
+      "name_fr": "Riz au jasmin",
+      "image": "base/rice-white.png",
+      "infos": "base/rice-white-{lang}.md",
+      "ofTheDay": false,
+      "soldOut": false,
+      "disabled": false
+    },
+    {
+      "id": "zucchini",
+      "name": "Zucchini",
+      "name_de": "Zucchini",
+      "name_fr": "Courgette",
+      "image": "base/zucchetti.png",
+      "infos": "base/zucchetti-{lang}.md"
+    },
+    {
+      "id": "brown",
+      "name": "Red natural rice",
+      "name_de": "Roter Naturreis",
+      "name_fr": "Riz naturel rouge",
+      "image": "base/rice-brown.png",
+      "infos": "base/rice-brown-{lang}.md",
+      "ofTheDay": true,
+      "disabled": false
+    },
+    {
+      "id": "black",
+      "name": "Riceberry",
+      "name_de": "Riceberry",
+      "name_fr": "Riceberry",
+      "image": "base/rice-black.png",
+      "infos": "base/rice-black-{lang}.md",
+      "ofTheDay": true,
+      "disabled": true
+    }
+  ],
+  "proteins": [
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "name_de": "Lachs",
+      "name_fr": "Saumon",
+      "price": 5.5,
+      "image": "protein/salmon.png",
+      "soldOut": false,
+      "vegi": false,
+      "vegan": false,
+      "disabled": false
+    },
+    {
+      "id": "tuna",
+      "name": "Tuna",
+      "name_de": "Thunfisch",
+      "name_fr": "Thon",
+      "price": 5.5,
+      "image": "protein/tuna.png"
+    },
+    {
+      "id": "pulled",
+      "name": "Pulled beef",
+      "name_de": "Pulled Beef",
+      "name_fr": "Boeuf effiloché",
+      "price": 5.5,
+      "image": "protein/pulled.png",
+      "soldOut": true
+    },
+    {
+      "id": "tofu",
+      "name": "Fried tofu",
+      "name_de": "Gebratener Tofu",
+      "name_fr": "Tofu frit",
+      "price": 3.5,
+      "image": "protein/tofu.png",
+      "vegi": true
+    },
+    {
+      "id": "carrot",
+      "name": "Salmon vegan",
+      "name_de": "Rüebli Lachs",
+      "name_fr": "Saumon végan",
+      "price": 5.5,
+      "image": "protein/carrot.png",
+      "vegan": true
+    },
+    {
+      "id": "none",
+      "name": "Without",
+      "name_de": "Ohne",
+      "name_fr": "Sans",
+      "image": "protein/none.png"
+    }
+  ],
+  "toppings": [
+    {
+      "id": "edamame",
+      "name": "Edamame",
+      "name_de": "Edamame",
+      "name_fr": "Edamame",
+      "price": 2.00,
+      "image": "topping/edamame.png",
+      "fruit": false,
+      "soldOut": false,
+      "ofTheDay": false,
+      "disabled": false
+    },
+    {
+      "id": "sprouts",
+      "name": "Sprouts",
+      "name_de": "Sprossen",
+      "name_fr": "Pousses",
+      "price": 2.00,
+      "image": "topping/sprouts.png"
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "name_de": "Ingwer",
+      "name_fr": "Gingembre",
+      "price": 2.00,
+      "image": "topping/ginger.png"
+    },
+    {
+      "id": "avocado",
+      "name": "Avocado",
+      "name_de": "Avocado",
+      "name_fr": "Avocat",
+      "price": 2.00,
+      "image": "topping/avocado.png"
+    },
+    {
+      "id": "wakame",
+      "name": "Wakame Goma",
+      "name_de": "Wakame-Sesamsamen",
+      "name_fr": "Wakamé graines",
+      "price": 2.00,
+      "image": "topping/wakame.png"
+    },
+    {
+      "id": "coriander",
+      "name": "Coriander",
+      "name_de": "Koriander",
+      "name_fr": "Coriandre",
+      "price": 2.00,
+      "image": "topping/coriander.png"
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "name_de": "Mango",
+      "name_fr": "Mangue",
+      "price": 2.00,
+      "image": "topping/mango.png",
+      "fruit": true
+    },
+    {
+      "id": "pomegranate",
+      "name": "Pomegranate",
+      "name_de": "Granatapfel",
+      "name_fr": "Grenade",
+      "price": 2.00,
+      "image": "topping/pomegranate.png",
+      "fruit": true
+    },
+    {
+      "id": "pineapple",
+      "name": "Pineapple",
+      "name_de": "Ananas",
+      "name_fr": "Ananas",
+      "price": 2.00,
+      "image": "topping/pineapple.png",
+      "fruit": true
+    },
+    {
+      "id": "zucchini",
+      "name": "Zucchini",
+      "name_de": "Zucchini",
+      "name_fr": "Courgette",
+      "price": 2.00,
+      "image": "topping/zucchetti.png"
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "name_de": "Karotte",
+      "name_fr": "Carotte",
+      "price": 2.00,
+      "image": "topping/carrot.png"
+    },
+    {
+      "id": "beetroot",
+      "name": "Beetroot",
+      "name_de": "Rote Beete",
+      "name_fr": "Betterave",
+      "price": 2.00,
+      "image": "topping/beetroot.png",
+      "ofTheDay": true,
+      "disabled": false
+    },
+    {
+      "id": "scalions",
+      "name": "Spring onions",
+      "name_de": "Frühlingszwiebeln",
+      "name_fr": "Oignons de printemps",
+      "price": 2.00,
+      "image": "topping/scalions.png",
+      "ofTheDay": true,
+      "disabled": true
+    },
+    {
+      "id": "watermelon",
+      "name": "Watermelon",
+      "name_de": "Wassermelone",
+      "name_fr": "Pastèque",
+      "price": 2.00,
+      "image": "topping/watermelon.png",
+      "fruit": true,
+      "ofTheDay": true,
+      "disabled": true
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "name_de": "Gurke",
+      "name_fr": "Concombre",
+      "price": 2.00,
+      "image": "topping/cucumber.png",
+      "ofTheDay": true,
+      "disabled": true
+    },
+    {
+      "id": "paprika",
+      "name": "Paprika",
+      "name_de": "Paprika",
+      "name_fr": "Paprika",
+      "price": 2.00,
+      "image": "topping/paprika.png",
+      "ofTheDay": true,
+      "disabled": true
+    }
+  ],
+  "sauces": [
+    {
+      "id": "yuzuingwer",
+      "name": "Yuzu Ingwer",
+      "name_de": "Yuzu Ingwer",
+      "name_fr": "Yuzu Ingwer",
+      "image": "sauce/yuzuingwer.png",
+      "vegi": false,
+      "vegan": true,
+      "soldOut": false,
+      "disabled": false
+    },
+    {
+      "id": "blacksesam",
+      "name": "Black Sesam",
+      "name_de": "Black Sesam",
+      "name_fr": "Black Sesam",
+      "image": "sauce/blacksesam.png",
+      "vegan": true
+    },
+    {
+      "id": "spicymayo",
+      "name": "Spicy Mayo",
+      "name_de": "Spicy Mayo",
+      "name_fr": "Spicy Mayo",
+      "image": "sauce/spicymayo.png",
+      "vegi": true
+    },
+    {
+      "id": "teriyaki",
+      "name": "Teriyaki",
+      "name_de": "Teriyaki",
+      "name_fr": "Teriyaki",
+      "image": "sauce/teriyaki.png",
+      "vegan": true
+    },
+    {
+      "id": "sesamwasabi",
+      "name": "Sesam Wasabi",
+      "name_de": "Sesam Wasabi",
+      "name_fr": "Sesam Wasabi",
+      "image": "sauce/sesamwasabi.png",
+      "vegan": true
+    },
+    {
+      "id": "none",
+      "name": "Without",
+      "name_de": "Ohne",
+      "name_fr": "Sans",
+      "image": "sauce/none.png"
+    }
+  ],
+  "sizes": [
+    {
+      "id": "regular",
+      "name": "Regular",
+      "name_de": "Regular",
+      "name_fr": "Regular",
+      "image": "size/regular.png",
+      "toppings": 4,
+      "minToppings": 4,
+      "maxToppings": 6,
+      "noTakeAway": false
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "name_de": "Medium",
+      "name_fr": "Medium",
+      "image": "size/medium.png",
+      "toppings": 3,
+      "minToppings": 3,
+      "maxToppings": 5
+    },
+    {
+      "id": "tasting",
+      "name": "Tasting",
+      "name_de": "Tasting",
+      "name_fr": "Tasting",
+      "image": "size/tasting.png",
+      "toppings": 2,
+      "minToppings": 2,
+      "maxToppings": 3,
+      "noTakeAway": true
+    }
+  ],
+  "pricing": [
+    {
+      "protein": "tofu",
+      "size": "regular",
+      "price": 19
+    },
+    {
+      "protein": "tofu",
+      "size": "medium",
+      "price": 17
+    },
+    {
+      "protein": "tofu",
+      "size": "tasting",
+      "price": 9.5
+    },
+    {
+      "protein": "",
+      "size": "regular",
+      "price": 21
+    },
+    {
+      "protein": "",
+      "size": "medium",
+      "price": 19
+    },
+    {
+      "protein": "",
+      "size": "tasting",
+      "price": 10.5
+    }
+  ]
+}
