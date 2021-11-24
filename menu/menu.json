@@ -53,6 +53,7 @@
       "name_fr": "Saumon",
       "price": 5.5,
       "image": "protein/salmon.png",
+      "infos": "protein/salmon-{lang}.md",
       "soldOut": false,
       "vegi": false,
       "vegan": false,
@@ -64,7 +65,8 @@
       "name_de": "Thunfisch",
       "name_fr": "Thon",
       "price": 5.5,
-      "image": "protein/tuna.png"
+      "image": "protein/tuna.png",
+      "infos": "protein/tuna-{lang}.md"
     },
     {
       "id": "pulled",
@@ -73,6 +75,7 @@
       "name_fr": "Boeuf effiloché",
       "price": 5.5,
       "image": "protein/pulled.png",
+      "infos": "protein/pulled-{lang}.md",
       "soldOut": true
     },
     {
@@ -82,6 +85,7 @@
       "name_fr": "Tofu frit",
       "price": 3.5,
       "image": "protein/tofu.png",
+      "infos": "protein/tofu-{lang}.md",
       "vegi": true
     },
     {
@@ -91,6 +95,7 @@
       "name_fr": "Saumon végan",
       "price": 5.5,
       "image": "protein/carrot.png",
+      "infos": "protein/carrot-{lang}.md",
       "vegan": true
     },
     {
@@ -136,7 +141,8 @@
       "name_de": "Avocado",
       "name_fr": "Avocat",
       "price": 2.00,
-      "image": "topping/avocado.png"
+      "image": "topping/avocado.png",
+      "infos": "topping/avocado-{lang}.md"
     },
     {
       "id": "wakame",
@@ -256,6 +262,7 @@
       "name_de": "Yuzu Ingwer",
       "name_fr": "Yuzu Ingwer",
       "image": "sauce/yuzuingwer.png",
+      "infos": "sauce/yuzuingwe-{lang}.md",
       "vegi": false,
       "vegan": true,
       "soldOut": false,
@@ -267,6 +274,7 @@
       "name_de": "Black Sesam",
       "name_fr": "Black Sesam",
       "image": "sauce/blacksesam.png",
+      "infos": "sauce/blacksesam-{lang}.md",
       "vegan": true
     },
     {
@@ -275,6 +283,7 @@
       "name_de": "Spicy Mayo",
       "name_fr": "Spicy Mayo",
       "image": "sauce/spicymayo.png",
+      "infos": "sauce/spicymayo-{lang}.md",
       "vegi": true
     },
     {
@@ -283,6 +292,7 @@
       "name_de": "Teriyaki",
       "name_fr": "Teriyaki",
       "image": "sauce/teriyaki.png",
+      "infos": "sauce/teriyaki-{lang}.md",
       "vegan": true
     },
     {
@@ -291,6 +301,7 @@
       "name_de": "Sesam Wasabi",
       "name_fr": "Sesam Wasabi",
       "image": "sauce/sesamwasabi.png",
+      "infos": "sauce/sesamwasabi-{lang}.md",
       "vegan": true
     },
     {
