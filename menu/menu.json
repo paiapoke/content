@@ -114,6 +114,7 @@
       "name_fr": "Edamame",
       "price": 2.00,
       "image": "topping/edamame.png",
+      "infos": "topping/edamame-{lang}.png",
       "fruit": false,
       "soldOut": false,
       "ofTheDay": false,
@@ -125,7 +126,8 @@
       "name_de": "Sprossen",
       "name_fr": "Pousses",
       "price": 2.00,
-      "image": "topping/sprouts.png"
+      "image": "topping/sprouts.png",
+      "infos": "topping/sprouts-{lang}.png"
     },
     {
       "id": "ginger",
@@ -133,7 +135,8 @@
       "name_de": "Ingwer",
       "name_fr": "Gingembre",
       "price": 2.00,
-      "image": "topping/ginger.png"
+      "image": "topping/ginger.png",
+      "infos": "topping/ginger-{lang}.png"
     },
     {
       "id": "avocado",
@@ -150,7 +153,8 @@
       "name_de": "Wakame-Sesamsamen",
       "name_fr": "Wakamé graines",
       "price": 2.00,
-      "image": "topping/wakame.png"
+      "image": "topping/wakame.png",
+      "infos": "topping/wakame-{lang}.png"
     },
     {
       "id": "coriander",
@@ -158,7 +162,8 @@
       "name_de": "Koriander",
       "name_fr": "Coriandre",
       "price": 2.00,
-      "image": "topping/coriander.png"
+      "image": "topping/coriander.png",
+      "infos": "topping/coriander-{lang}.png"
     },
     {
       "id": "mango",
@@ -167,6 +172,7 @@
       "name_fr": "Mangue",
       "price": 2.00,
       "image": "topping/mango.png",
+      "infos": "topping/mango-{lang}.png",
       "fruit": true
     },
     {
@@ -176,6 +182,7 @@
       "name_fr": "Grenade",
       "price": 2.00,
       "image": "topping/pomegranate.png",
+      "infos": "topping/pomegranate-{lang}.png",
       "fruit": true
     },
     {
@@ -185,6 +192,7 @@
       "name_fr": "Ananas",
       "price": 2.00,
       "image": "topping/pineapple.png",
+      "infos": "topping/pineapple-{lang}.png",
       "fruit": true
     },
     {
@@ -193,7 +201,8 @@
       "name_de": "Zucchini",
       "name_fr": "Courgette",
       "price": 2.00,
-      "image": "topping/zucchetti.png"
+      "image": "topping/zucchetti.png",
+      "infos": "topping/zucchetti-{lang}.png"
     },
     {
       "id": "carrot",
@@ -201,7 +210,8 @@
       "name_de": "Karotte",
       "name_fr": "Carotte",
       "price": 2.00,
-      "image": "topping/carrot.png"
+      "image": "topping/carrot.png",
+      "infos": "topping/carrot-{lang}.png"
     },
     {
       "id": "beetroot",
@@ -210,16 +220,18 @@
       "name_fr": "Betterave",
       "price": 2.00,
       "image": "topping/beetroot.png",
+      "infos": "topping/beetroot-{lang}.png",
       "ofTheDay": true,
       "disabled": false
     },
     {
-      "id": "scalions",
+      "id": "scallions",
       "name": "Spring onions",
       "name_de": "Frühlingszwiebeln",
       "name_fr": "Oignons de printemps",
       "price": 2.00,
-      "image": "topping/scalions.png",
+      "image": "topping/scallions.png",
+      "infos": "topping/scallions-{lang}.png",
       "ofTheDay": true,
       "disabled": true
     },
@@ -230,6 +242,7 @@
       "name_fr": "Pastèque",
       "price": 2.00,
       "image": "topping/watermelon.png",
+      "infos": "topping/watermelon-{lang}.png",
       "fruit": true,
       "ofTheDay": true,
       "disabled": true
@@ -241,6 +254,7 @@
       "name_fr": "Concombre",
       "price": 2.00,
       "image": "topping/cucumber.png",
+      "infos": "topping/cucumber-{lang}.png",
       "ofTheDay": true,
       "disabled": true
     },
@@ -251,6 +265,7 @@
       "name_fr": "Paprika",
       "price": 2.00,
       "image": "topping/paprika.png",
+      "infos": "topping/paprika-{lang}.png",
       "ofTheDay": true,
       "disabled": true
     }
@@ -262,7 +277,7 @@
       "name_de": "Yuzu Ingwer",
       "name_fr": "Yuzu Ingwer",
       "image": "sauce/yuzuingwer.png",
-      "infos": "sauce/yuzuingwe-{lang}.md",
+      "infos": "sauce/yuzuingwer-{lang}.md",
       "vegi": false,
       "vegan": true,
       "soldOut": false,
